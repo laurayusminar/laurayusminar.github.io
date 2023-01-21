@@ -1,0 +1,446 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="tugas13.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+
+<body>
+    <img src="tailaur2.png" alt="banner" width="100%">
+ 
+    <div class="w3-bar">
+        <button class="w3-bar-item w3-button" onclick="openProduct('Home')">Home</button>
+        <button class="w3-bar-item w3-button mybutton" onclick="openProduct('Aboutme')">About me</button>
+        <button class="w3-bar-item w3-button" onclick="openProduct('Recommendation')">Recommendation</button>
+
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Men</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openProduct('Clothes')">Clothes</button>
+                <button class="w3-bar-item w3-button" onclick="openProduct('Shoes')">Shoes</button>
+                <button class="w3-bar-item w3-button" onclick="openProduct('Accecories')">Accecories</button>
+                <button class="w3-bar-item w3-button" onclick="openProduct('Sportswear')">Sportswear</button>
+            </div>
+        </div>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Women</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openProduct('Clothes2')">Clothes</button>
+                <button class="w3-bar-item w3-button" onclick="openProduct('Shoes2')">Shoes</button>
+                <button class="w3-bar-item w3-button" onclick="openProduct('Accecories2')">Accecories</button>
+                <button class="w3-bar-item w3-button" onclick="openProduct('Sportswear2')">Sportswear</button>
+                <button class="w3-bar-item w3-button" onclick="openProduct('Beauty')">Beauty</button>
+            </div>
+        </div>
+    </div>
+    <div id="Home" class="w3-container product" style="display: block;">
+        <div class="w3-container w3-center w3-animate-fading long-transition-time">
+            <img src="5.png" alt="buy" style="width: 100%">
+        </div>
+        <br>
+        <div class="w3-container w3-center w3-animate-left long-transition-time">
+            <img src="1.png" alt="sale" style="width: 100%">
+        </div>
+        <br>
+        <div class="w3-container w3-center w3-animate-right long-transition-time">
+            <img src="2.png" alt="discount" style="width: 100%">
+        </div>
+        <br>
+        <div class="w3-container w3-center w3-animate-left long-transition-time">
+            <img src="3.png" alt="code" style="width: 100%">
+        </div>
+        <br>
+        <div class="w3-container w3-center w3-animate-right long-transition-time">
+            <img src="4.png" alt="newmember" style="width: 100%">
+        </div>
+    </div>
+
+    <div id="Aboutme" class="w3-container product w3-animate-zoom" style="display: none;">
+        <center>
+            <h1 class="aboutlaura">Hi Everyone!</h1>
+            <h3 class="aboutlaura">I'm Laura and this is my very first website that other people can access!</h3>
+            <h4 class="aboutlaura">Name : Laura Aurellia Yusminar</h2>
+            <h4 class="aboutlaura">NIM : 10122210</h2>
+            <h4 class="aboutlaura">Class : IF-6</h4>
+        </center>
+    </div>
+
+    <div id="Recommendation" class="w3-container product w3-animate-top" style="display: none;">
+        <center>
+            <h1 class="aboutlaura">Here are some recommendations for you</h1>
+            <div class="w3-container w3-center w3-animate-left long-transition-time row">
+                <img src="dresses1.jpg" alt="" style="width: 90%">
+            </div>
+            <p class="aboutlaura">Dresses by Jenny Yoo photographed by This Modern Romance via Bridal Musings</p>
+            <div class="w3-container w3-center w3-animate-right long-transition-time row">
+                <img src="dresses2.jpg" alt="" style="width: 90%">
+            </div>
+        </center>
+    </div>
+
+    <div id="Clothes" class="w3-container product w3-animate-top" style="display: none;">
+        <center>
+        <h2 class="aboutlaura">Get yours now!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="cl1.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="cl2.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="cl3.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+         </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="cl4.webp" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="cl5.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="cl6.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+         </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="cl7.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="cl9.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="cl8.jpg" alt="" style="width: 100%">
+        </div>
+    </div>
+
+       
+    <div id="Shoes" class="w3-container product w3-animate-bottom" style="display: none;">
+        <center>
+            <h2 class="aboutlaura">Limited time!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sh1.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sh2.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sh3.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+         </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sh4.webp" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sh5.webp" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sh6.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+         </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sh7.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sh8.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sh9.jpg" alt="" style="width: 100%">
+        </div>
+    </div>
+       
+    <div id="Accecories" class="w3-container product w3-animate-top" style="display: none;">
+        <center>
+            <h2 class="aboutlaura">Buy one, get one free!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="ac1.jpg" alt="a" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="ac2.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="ac3.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="ac4.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="ac5.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="ac6.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="ac7.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="ac8.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="ac9.jpg" alt="" style="width: 100%">
+        </div>
+    </div>
+       
+    <div id="Sportswear" class="w3-container product w3-animate-bottom" style="display: none;">
+        <center>
+            <h2 class="aboutlaura">Try it before you buy it!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sw2.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sw.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sw3.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sw4.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sw5.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sw9.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sw6.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sw8.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sw7.jpg" alt="" style="width: 100%">
+        </div>
+    </div>
+       
+    <div id="Clothes2" class="w3-container product w3-animate-top row" style="display: none;">
+        <center>
+        <h2 class="aboutlaura">Don’t miss yours!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="dress2.jpg" alt="sale" style="width: 100%">
+        </div> 
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="dress3.png" alt="discount" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="dress4.jpg" alt="code" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="dress5.jpg" alt="newmember" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="blazer1.jpg" alt="buy" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="blazer2.jpg" alt="sale" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="blazer3.jpg" alt="discount" style="width: 100%">
+        </div>
+        
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="blazer5.jpg" alt="code" style="width: 100%">
+        </div>
+        
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="blazer6.jpg" alt="newmember" style="width: 100%">
+        </div>
+    </div>
+       
+    <div id="Shoes2" class="w3-container product w3-animate-bottom row" style="display: none;">
+        <center>
+            <h2 class="aboutlaura">Limited time!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="shoes1.jpg" alt="buy" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="shoes3.jpg" alt="sale" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="shoes4.jpg" alt="discount" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="shoes5.jpg" alt="code" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="shoes6.webp" alt="newmember" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="heels1.webp" alt="buy" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="heels2.jpg" alt="sale" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="heels3.webp" alt="discount" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="heels4.webp" style="width: 100%">
+        </div>
+    </div>
+       
+    <div id="Accecories2" class="w3-container product w3-animate-top" style="display: none;">
+        <center>
+            <h2 class="aboutlaura">Exclusive offer!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="acc1.jpg" alt="buy" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="acc2.jpg" alt="sale" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="acc3.jpg" alt="discount" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="acc4.jpg" alt="code" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="acc5.jpg" alt="newmember" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="acc6.jpg" alt="buy" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="acc7.jpg" alt="sale" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="acc8.jpg" alt="discount" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="acc9.jpg" style="width: 100%">
+        </div>
+    </div>
+       
+    <div id="Sportswear2" class="w3-container product w3-animate-bottom row" style="display: none;">
+        <center>
+            <h2 class="aboutlaura">Try it before you buy it!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sp1.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sp2.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sp3.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sp4.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sp5.webp" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sp6.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="sp7.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="sp8.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="sp9.jpg" alt="" style="width: 100%">
+        </div>
+    </div>
+       
+    <div id="Beauty" class="w3-container product w3-animate-top" style="display: none;">
+        <center>
+        <h2 class="aboutlaura">Buy one, get one free!</h2>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="bt1.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="bt2.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="bt3.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="bt4.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="bt5.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="bt6.jpg" alt="" style="width: 100%">
+        </div>
+        <center>
+            <p class="laucode">CODE : TAILAUR15</p>
+        </center>
+        <div class="w3-container w3-center w3-animate-left long-transition-time column">
+            <img src="bt7.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-fading long-transition-time column">
+            <img src="bt8.webp" alt="" style="width: 100%">
+        </div>
+        <div class="w3-container w3-center w3-animate-right long-transition-time column">
+            <img src="bt9.jpg" alt="" style="width: 100%">
+        </div>
+    </div>
+    <script>
+        function openProduct(namaProduct) {
+         var i;
+         var x = document.getElementsByClassName("product");
+         for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+         }
+         document.getElementById(namaProduct).style.display = "block";
+        }
+    </script>
+</body>
+</html>
